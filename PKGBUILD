@@ -13,7 +13,7 @@ md5sums=('SKIP')
 
 package() {
   cd $pkgname
-  install -Dm644 flypy.conf "$pkgdir/usr/share/fcitx5/inputmethod"
-  install -Dm644 flypy.dict "$pkgdir/usr/share/libime"
+  install -Dm644 flypy.conf "$pkgdir/usr/share/fcitx5/inputmethod/flypy.conf"
+  install -Dm644 flypy.dict "$pkgdir/usr/share/libime/flypy.dict"
   install -Dm644 LICENSE "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
 }
