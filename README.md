@@ -1,6 +1,6 @@
 # fcitx5-flypy
 
-小鹤音形 aka xhyu or flypy for fcitx5
+小鹤音形 aka xhyx or flypy for fcitx5
 
 ## Installation
 
